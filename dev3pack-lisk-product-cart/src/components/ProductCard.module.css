@@ -1,0 +1,41 @@
+.productImageContainer {
+  position: relative;
+  margin-bottom: calc((35 / 16) * 1rem);
+}
+
+.productImage {
+  border-radius: calc((6 / 16) * 1rem);
+}
+
+.selectedProduct {
+  outline: 0.2rem solid var(--red);
+}
+
+.productDescription {
+  font-size: calc((14 / 16) * 1rem);
+}
+
+.productLabel {
+  color: var(--rose-500);
+}
+
+.productTitle {
+  font-weight: 600;
+}
+
+.productPrice {
+  font-weight: 600;
+  color: var(--red);
+}
+
+@media screen and (min-width: 50em) {
+  .productImageContainer {
+    aspect-ratio: 1 / 1;
+  }
+
+  .productImage {
+    height: 100%;
+    object-fit: cover;
+    src: url(../assets/images/icon-carbon-neutral.svg);
+  }
+}
