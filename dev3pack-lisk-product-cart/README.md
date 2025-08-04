@@ -7,11 +7,11 @@ A React + Vite application for managing a product catalog with an interactive sh
 
 This project is a minimal yet functional e-commerce storefront built with **React** and **Vite**, featuring:
 
-- A responsive product catalog
-- Add-to-cart functionality
-- Real-time cart updates
-- Clean, maintainable codebase using **TypeScript**
-- Fast builds powered by **SWC**
+- Add items to the cart and remove them
+- Increase/decrease the number of items in the cart
+- See an order confirmation modal when they click "Confirm Order"
+- Reset their selections when they click "Start New Order"
+- Navigate the whole project and perform all actions using only their keyboard
 
 ### Live Demo
 
