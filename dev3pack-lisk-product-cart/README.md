@@ -1,12 +1,9 @@
-Here is an updated version of your `README.md` file, incorporating the preview of the deployment and additional details about the project. This README provides a comprehensive overview, including project setup, features, deployment, and technical details.
-
----
 
 # dev3pack-lisk-product-cart
 
 A React + Vite application for managing a product catalog with an interactive shopping cart. This project demonstrates modern frontend development practices using TypeScript, ESLint, and fast build tools like SWC.
 
-## 🚀 Overview
+## Overview
 
 This project is a minimal yet functional e-commerce storefront built with **React** and **Vite**, featuring:
 
@@ -23,7 +20,6 @@ You can view the live deployment at: [lisk-product-cart.vercel.app](https://lisk
 ![Preview of Deployment](./preview.png)
 *Preview of the deployed application*
 
----
 
 ## Features
 
@@ -34,9 +30,8 @@ You can view the live deployment at: [lisk-product-cart.vercel.app](https://lisk
 - **Type Safety:** Built with TypeScript for robust type checking and developer productivity.
 - **Fast Builds:** Leverages SWC for up to **20x faster builds** compared to Babel.
 
----
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -75,9 +70,8 @@ npm run preview
 
 Serves the built assets locally to test the production version.
 
----
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 dev3pack-lisk-product-cart/
@@ -98,9 +92,8 @@ dev3pack-lisk-product-cart/
 └── README.md
 ```
 
----
 
-## 🔧 Configuration Details
+## Configuration Details
 
 ### 1. TypeScript Setup
 
@@ -136,9 +129,8 @@ The `vite.config.js` file configures Vite for optimal performance, including:
 - Build optimizations.
 - Plugin integrations (e.g., React, SWC).
 
----
 
-## 🌐 Deployment
+## Deployment
 
 The application is deployed on **Vercel**. To deploy your own version:
 
@@ -155,9 +147,8 @@ npm run build
 
 Then upload the contents of the `dist/` folder.
 
----
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you find any bugs or want to enhance the project, feel free to open an issue or submit a pull request.
 
@@ -167,13 +158,11 @@ Contributions are welcome! If you find any bugs or want to enhance the project, 
 4. Push to the branch: `git push origin feature/new-feature`.
 5. Open a Pull Request.
 
----
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
----
 
 ## 👨‍💻 Credits
 
@@ -187,9 +176,8 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
   - SWC
   - Husky + lint-staged
 
----
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - **Vite:** Next-generation frontend tooling.
 - **React:** Library for building user interfaces.
@@ -197,7 +185,3 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 - **ESLint + typescript-eslint:** Linting for JavaScript and TypeScript.
 - **SWC:** Ultra-fast Rust-based compiler.
 - **Vercel:** Hosting platform for deploying the application.
-
----
-
-Feel free to reach out if you have any questions or need further assistance! 🚀
