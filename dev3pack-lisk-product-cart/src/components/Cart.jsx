@@ -31,13 +31,13 @@ function Cart() {
               {items
                 .map((items) => items.price * items.quantity)
                 .reduce((a, b) => a + b, 0)
-                .toFixed(2)}
+                .toFixed(1)}
             </p>
           </div>
           <div className={styles.carbonNeutralBanner}>
             <IconCarbonNeutral />
             <p>
-              This is a <strong>carbon-neutral</strong> delivery
+              This is a <strong>Lisk bootcamp</strong> delivery
             </p>
           </div>
           <Button

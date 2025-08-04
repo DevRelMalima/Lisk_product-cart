@@ -10,11 +10,11 @@ function ConfirmedItem({ item }) {
         <h3 className={styles.title}>{item.name}</h3>
         <p>
           <span className={styles.quantity}>{item.quantity}x</span>
-          <span className={styles.unitPrice}>@ ${item.price.toFixed(2)}</span>
+          <span className={styles.unitPrice}>@ ${item.price.toFixed(1)}</span>
         </p>
       </div>
       <p className={styles.totalPrice}>
-        ${(item.price * item.quantity).toFixed(2)}
+        ${(item.price * item.quantity).toFixed(1)}
       </p>
     </li>
   );
